@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!-- 
+        <h1>Demontsration of If by jinja</h1>
+        {% if name %}
+            <h2>i am in if block</h2>
+            <h2>{{name}}</h2>
+        {% endif %}
+         -->
+         <!-- 
+         <h1>IF-else</h1>
+
+         {% if a > b %}
+        <h2>a is maximum</h2>
+        {% else %}
+    <h2>b is maximum</h2>
+        {% endif %}
+
+ -->
+<!-- 
+<h1>If-elif-else</h1>
+{% if a > b and a > c %}
+ <h2>a is max</h2>
+{% elif b > c %}
+    <h2>b is max</h2>
+{% else %}
+    <h2>c is max</h2> 
+{% endif %}
+
+ -->
+
+<h1>nested if</h1>
+{% if a > b %}
+    {% if a > c %}
+        <h2>a is max</h2>
+    {% else %}
+        <h2>c is max</h2>
+    
+    {% endif %}
+{% else %}
+    {% if b > c %}
+        <h2>b is max</h2>
+    {% else %}
+        <h2>c is mazx</h2>
+    {% endif %}
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
